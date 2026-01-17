@@ -30,6 +30,12 @@ const Hero: React.FC = () => {
               <a href="#projects" className="btn btn-primary">View Work</a>
               <a href="#contact" className="btn btn-secondary">Contact Me</a>
             </div>
+            {/* Added Resume Download Button - Primary Location */}
+            <div style={{ marginTop: '1.5rem' }}>
+                <a href="/Rituraj.pdf" download="Rituraj.pdf" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                    Download Resume
+                </a>
+            </div>
           </RevealOnScroll>
         </div>
 

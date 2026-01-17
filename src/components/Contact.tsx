@@ -37,6 +37,10 @@ const Contact: React.FC = () => {
                                 <a href="#" className="social-icon">GitHub</a>
                                 <a href="#" className="social-icon">Twitter</a>
                             </div>
+
+                            <a href="/Rituraj.pdf" download="Rituraj.pdf" className="btn btn-primary" style={{ marginTop: '2rem', display: 'inline-block' }}>
+                                Download Resume
+                            </a>
                         </div>
                     </RevealOnScroll>
 
