@@ -6,17 +6,17 @@ const Projects: React.FC = () => {
     const projects = [
         {
             id: 1,
-            title: "FinTech Dashboard",
-            category: "Full Stack Development",
-            description: "A real-time financial data visualization platform with secure user authentication and complex state management.",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            tech: ["React", "TypeScript", "D3.js", "Node.js"],
-            link: "#"
+            title: "Bihar Sports Mahasangram",
+            // category: "Full Stack Web Application",
+            description: "A comprehensive sports event management platform for Bihar Sports Mahasangram 2026, featuring school registrations and student enrollments.",
+            image: "/bihar-sports.png",
+            tech: ["React", "TypeScript", "Tailwind CSS", "AWS"],
+            link: "https://biharsportsmahasangram.in/"
         },
         {
             id: 2,
             title: "E-Commerce Redesign",
-            category: "UI/UX & Frontend",
+            // category: "UI/UX & Frontend",
             description: "Modern, high-conversion shopping experience with optimized performance and seamless checkout flow.",
             image: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
             tech: ["Next.js", "Tailwind CSS", "Stripe", "Framer Motion"],
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
         {
             id: 3,
             title: "SaaS Landing Page",
-            category: "Web Development",
+            // category: "Web Development",
             description: "High-performance landing page for a SaaS product, focused on SEO and lead generation.",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1102&q=80",
             tech: ["React", "Vite", "GSAP", "Analytics"],
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
                                 <div className="project-image-container">
                                     <img src={project.image} alt={project.title} className="project-image" />
                                     <div className="project-overlay">
-                                        <a href={project.link} className="btn btn-primary project-btn">View Project</a>
+                                        <a href={project.link} className="btn btn-primary project-btn" target='_blank'>View Project</a>
                                     </div>
                                 </div>
                                 <div className="project-content">

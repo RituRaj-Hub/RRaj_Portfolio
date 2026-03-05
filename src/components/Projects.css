@@ -28,12 +28,17 @@
     height: 240px;
     position: relative;
     overflow: hidden;
+    background: #fdf6e9;
+    /* Matching the cream background of the sports project */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.5s ease;
 }
 
@@ -108,5 +113,24 @@
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .project-card {
+        border-radius: 12px;
+    }
+
+    .project-image-container {
+        height: 200px;
+    }
+
+    .project-content {
+        padding: 1.25rem;
     }
 }

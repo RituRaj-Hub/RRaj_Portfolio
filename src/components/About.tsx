@@ -9,21 +9,24 @@ const About: React.FC = () => {
                 <RevealOnScroll>
                     <div className="section-header">
                         <h2 className="section-title">About <span className="text-gradient">Me</span></h2>
-                        <p className="section-subtitle">Bridging the gap between design and technology</p>
+                        <p className="section-subtitle">Frontend engineering focused on performance and scalability                        </p>
                     </div>
                 </RevealOnScroll>
 
                 <div className="about-content">
                     <div className="about-text-column">
                         <RevealOnScroll>
-                            <h3 className="about-heading">Building Scalable Digital Solutions</h3>
+                            <h3 className="about-heading">Designing & Engineering Modern Web Applications                            </h3>
                             <p className="about-text">
-                                I am a results-driven Frontend Developer & Digital Solutions Expert with over 3 years of experience.
-                                My passion lies in crafting efficient, scalable, and user-friendly web applications that solve real-world problems.
+                                I’m a Frontend Engineer with 3+ years of experience building
+                                responsive and high-performance web applications using React.
+                                My work focuses on clean component architecture, performance
+                                optimization, and creating smooth user experiences for real users.
                             </p>
                             <p className="about-text">
-                                Beyond code, I specialize in SEO optimization and digital growth strategies, ensuring that every
-                                project I deliver not only looks great but performs exceptionally well in search rankings and user engagement.
+                                I enjoy solving real product challenges — improving load speed,
+                                building scalable UI systems, and delivering interfaces that
+                                remain reliable as applications grow.
                             </p>
 
                             <a href="#contact" className="btn btn-primary">Let's Talk</a>
@@ -35,7 +38,7 @@ const About: React.FC = () => {
                             <div className="expectation-card glass">
                                 <div className="icon">🚀</div>
                                 <h4>Performance First</h4>
-                                <p>Lightning fast load times and optimized interactive elements.</p>
+                                <p>Optimized rendering, faster load times, and efficient frontend performance.                                </p>
                             </div>
                         </RevealOnScroll>
                         <RevealOnScroll>
@@ -47,16 +50,16 @@ const About: React.FC = () => {
                         </RevealOnScroll>
                         <RevealOnScroll>
                             <div className="expectation-card glass">
-                                <div className="icon">🔍</div>
-                                <h4>SEO Optimized</h4>
-                                <p>Built-in best practices to help your business reach more people.</p>
+                                <div className="icon">🧩</div>
+                                <h4>Scalable Architecture</h4>
+                                <p>Reusable components and structured frontend systems built for long-term growth.                                </p>
                             </div>
                         </RevealOnScroll>
                         <RevealOnScroll>
                             <div className="expectation-card glass">
                                 <div className="icon">💡</div>
                                 <h4>Modern Tech</h4>
-                                <p>Leveraging latest tools like React, TypeScript & Vite.</p>
+                                <p>Building applications using React, Tailwind CSS, REST APIs, and modern frontend tooling.                                </p>
                             </div>
                         </RevealOnScroll>
                     </div>

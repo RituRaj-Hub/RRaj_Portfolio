@@ -36,6 +36,16 @@
     color: var(--text-primary);
 }
 
+.info-item a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.info-item a:hover {
+    color: var(--primary);
+}
+
 .info-item .icon {
     font-size: 1.2rem;
 }

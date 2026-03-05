@@ -8,33 +8,34 @@ const Hero: React.FC = () => {
       <div className="container hero-container">
         <div className="hero-content">
           <RevealOnScroll>
-            <h2 className="subtitle">Hello, I'm a Developer</h2>
+            <h2 className="subtitle">Frontend Engineer • React</h2>
           </RevealOnScroll>
 
           <RevealOnScroll>
             <h1 className="title">
-              Crafting <span className="text-gradient">Digital Excellence</span>
-              <br /> for the Modern Web.
+              Building <span className="text-gradient">Fast,
+                Scalable Web</span>
+              <br />
+              Applications.
             </h1>
           </RevealOnScroll>
 
           <RevealOnScroll>
             <p className="description">
-              I build accessible, pixel-perfect, and performant web experiences.
-              Specializing in React, TypeScript, and modern digital solutions.
+              3+ years crafting responsive, high-performance React applications used in real-world projects.
             </p>
           </RevealOnScroll>
 
           <RevealOnScroll>
             <div className="cta-group">
-              <a href="#projects" className="btn btn-primary">View Work</a>
-              <a href="#contact" className="btn btn-secondary">Contact Me</a>
-            </div>
-            {/* Added Resume Download Button - Primary Location */}
-            <div style={{ marginTop: '1.5rem' }}>
-                <a href="/Rituraj.pdf" download="Rituraj.pdf" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
-                    Download Resume
-                </a>
+              <a href="#projects" className="btn btn-secondary">View Work</a>
+              <a
+                href="/my_resume/RituRajj.pdf"
+                download="RituRajj.pdf"
+                className="btn btn-primary"
+              >
+                Download Resume
+              </a>
             </div>
           </RevealOnScroll>
         </div>

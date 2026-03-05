@@ -6,27 +6,27 @@ const Services: React.FC = () => {
     const services = [
         {
             id: 1,
-            title: "Website Development",
-            description: "Custom, high-performance websites built with React, TypeScript, and modern CSS. Fully responsive and accessible.",
+            title: "Frontend Development",
+            description: "Building scalable React applications with clean architecture, responsive layouts, and modern UI practices.",
             icon: "💻"
         },
         {
             id: 2,
-            title: "SEO & Performance",
-            description: "Optimize your online presence with technical SEO, Core Web Vitals improvements, and speed optimization.",
+            title: "Performance Optimization",
+            description: "Improving load speed, rendering efficiency, and user experience through modern frontend performance techniques.",
             icon: "⚡"
         },
         {
             id: 3,
-            title: "Google Business Growth",
-            description: "Expert setup and management of Google Business Profiles to increase local visibility and customer trust.",
+            title: "API Integration",
+            description: "Connecting frontend applications with REST APIs, handling data states, and ensuring smooth interactions.",
             icon: "📍"
         },
         {
             id: 4,
-            title: "Digital Solutions",
-            description: "Tailored IT solutions and automation strategies to streamline your business operations.",
-            icon: "🛠️"
+            title: "Cloud Deployment",
+            description: "Deploying frontend applications using AWS S3 and EC2 with production-ready configurations.",
+            icon: "☁️"
         }
     ];
 
@@ -35,7 +35,7 @@ const Services: React.FC = () => {
             <div className="container">
                 <RevealOnScroll>
                     <div className="section-header">
-                        <h2 className="section-title">My <span className="text-gradient">Services</span></h2>
+                        <h2 className="section-title">Core <span className="text-gradient">Expertise</span></h2>
                         <p className="section-subtitle">Comprehensive digital solutions for your business</p>
                     </div>
                 </RevealOnScroll>

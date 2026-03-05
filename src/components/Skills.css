@@ -77,3 +77,13 @@
     z-index: 0;
     pointer-events: none;
 }
+
+@media (max-width: 576px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        padding: 1.5rem;
+    }
+}

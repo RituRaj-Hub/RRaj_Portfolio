@@ -6,15 +6,15 @@ const Skills: React.FC = () => {
     const skillCategories = [
         {
             title: "Frontend & Engineering",
-            skills: ["React", "TypeScript", "JavaScript (ES6+)", "HTML5 & CSS3", "Modern CSS / Animations", "Performance Optimization"]
+            skills: ["React", "JavaScript (ES6+)", "HTML5 & CSS3", "Tailwind CSS", "TypeScript", "Responsive UI Development", "REST API Integration", "Component Architecture", "Performance Optimization", "Modern CSS & Animations"]
         },
         {
-            title: "Digital Business Solutions",
-            skills: ["SEO Strategy", "Google Business Profile", "Local Search Optimization", "Review Management", "Digital Marketing", "Analytics Setup"]
+            title: "UI Architecture",
+            skills: ["UI Performance Optimization", "Code Splitting & Lazy Loading", "Image Optimization", "SEO-Friendly Frontend Structure", "Reusable Component Design", "State & API Data Handling", "Accessibility Best Practices", "Cross-Browser Compatibility"]
         },
         {
             title: "Tools & Workflow",
-            skills: ["Git Version Control", "Vite & Build Tools", "VS Code", "Chrome DevTools", "Figma / UI Design", "Responsive Testing"]
+            skills: ["Git Version Control", "AWS Deployment (S3 / EC2)", "CI/CD Basics", "VS Code", "Chrome DevTools", "Figma Collaboration", "Responsive Testing", "Debugging & Performance Auditing"]
         }
     ];
 
