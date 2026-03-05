@@ -7,11 +7,11 @@ const Hero: React.FC = () => {
     <section className="hero" id="home">
       <div className="container hero-container">
         <div className="hero-content">
-          <RevealOnScroll>
+          <RevealOnScroll width="100%">
             <h2 className="subtitle">Frontend Engineer • React</h2>
           </RevealOnScroll>
 
-          <RevealOnScroll>
+          <RevealOnScroll width="100%">
             <h1 className="title">
               Building <span className="text-gradient">Fast,
                 Scalable Web</span>
@@ -20,13 +20,13 @@ const Hero: React.FC = () => {
             </h1>
           </RevealOnScroll>
 
-          <RevealOnScroll>
+          <RevealOnScroll width="100%">
             <p className="description">
               3+ years crafting responsive, high-performance React applications used in real-world projects.
             </p>
           </RevealOnScroll>
 
-          <RevealOnScroll>
+          <RevealOnScroll width="100%">
             <div className="cta-group">
               <a href="#projects" className="btn btn-secondary">View Work</a>
               <a
