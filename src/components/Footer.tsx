@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
                             </li>
                             <li>
                                 <a
-                                    href="https://linkedin.com"
+                                    href="https://www.linkedin.com/in/ritu-raj-1448a51b1"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="footer-link footer-social-link"
